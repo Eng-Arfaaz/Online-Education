@@ -221,6 +221,45 @@ body {
   color: var(--primary-color);
   padding: 10px;
 }
+/* hero-section-5 */
+.hero-skills{
+  max-width: 900px;
+  place-self: center;
+  width: 100%;
+}
+.skillses{
+  width: 100%;
+  background-color: #ddd;
+}
+.skills{
+  text-align: right;
+  padding-top: 5px;
+  color: white;
+}
+.design{
+  background: red;
+}
+.editing{
+  background: #63a401;
+  width: 90%;
+}
+.coding{
+  background: orange;
+  width: 80%;
+}
+.Digital{
+  background: indigo;
+  width: 70%;
+}
+.public{
+  background: pink;
+  width: 60%;
+}
+.diploma{
+  background: violet;
+  width: 50%;
+}
+
 .hero-contact {
   display: flex;
   justify-content: space-evenly;
@@ -362,6 +401,9 @@ ul li a{
   input {
     width: 300px;
   }
+   .hero-skills{
+      padding: 10px;
+    }
 }
 /* mobile tablet  */
 @media (min-width:768px) and (max-width:1024px) {
@@ -428,7 +470,10 @@ ul li a{
     }
     .hero-info .box-2{
         width: 150px;
-        height: 100px;
+        height: 120px;
+    }
+     .hero-skills{
+      padding: 10px;
     }
 
 
